@@ -4,11 +4,11 @@ using namespace std;
 int main(){
 	int n,matriz[50][50],s=0;
 	
-	cout<<"Ingrese tamaño de la matriz: ";cin>>n;
+	cout<<"Ingrese tamanio de la matriz: ";cin>>n;
 	
 	for(int i=0;i<n;i++){
+		cout<<"Ingrese los elementos de la fila "<<i+1<<":\n";
 		for(int j=0;j<n;j++){
-			cout<<"Ingrese los elementos de la matriz: \n";
 			cin>>matriz[i][j];
 		}
 	}
