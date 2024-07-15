@@ -8,6 +8,7 @@ int main(){
 	
 	for(int i=0;i<n;i++){
 		for(int j=0;j<n;j++){
+			cout<<"Ingrese los elementos de la matriz: \n";
 			cin>>matriz[i][j];
 		}
 	}
@@ -18,6 +19,6 @@ int main(){
 			}
 		}
 	}
-	cout<<s;
+	cout<<"La suma de los elemetos del triangulo superior de la matriz es: "<<s<<endl;
 	return 0;
 }
