@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	int n,matriz[7][4],total[4],s=0;
+	float n,matriz[7][4],total[4],s=0;
 	for(int j=0;j<4;j++){
 		cout<<"INGRESE LAS VENTAS DE LA SEMANA "<<j+1<<" :\n";
 		cout<<"LUNES:";cin>>matriz[0][j];
@@ -17,7 +17,7 @@ int main(){
 	
 	cout<<"\nVentas de cuatro semanas\n";
 	cout<<"------------------------------------\n";
-	cout<<"	SEM1	SEM2	SEM3	SEM4\n";
+	cout<<"	 SEM1 	 SEM2	 SEM3	 SEM4\n";
 	for(int i=0;i<7;i++){
 		if(i==0){
 			cout<<"(L)";
