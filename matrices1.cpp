@@ -4,6 +4,7 @@ using namespace std;
 int main(){
 	int n,matriz[50][50],s=0;
 	
+	cout<<"---SUMA DE TRIANGULO SUPERIOR---"<<endl;
 	cout<<"Ingrese tamanio de la matriz: ";cin>>n;
 	
 	for(int i=0;i<n;i++){
